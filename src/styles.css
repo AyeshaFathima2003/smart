@@ -1,0 +1,11 @@
+/* You can add global styles to this file, and also import other style files */
+/* Make everything stack on small screens */
+@media (max-width: 768px) {
+    .container {
+      flex-direction: column !important;
+    }
+    .hide-on-mobile {
+      display: none !important;
+    }
+  }
+  
