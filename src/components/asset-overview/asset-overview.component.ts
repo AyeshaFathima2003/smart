@@ -26,7 +26,7 @@ import { AssetCardComponent } from '../asset-card/asset-card.component';
       </div>
 
       <div class="assets-grid">
-        <app-asset-card *ngFor="let asset of assets" [asset]="asset"></app-asset-card>
+        <app-asset-card *ngFor="let asset of filteredAssets" [asset]="asset"></app-asset-card>
       </div>
     </div>
   `,
@@ -89,6 +89,7 @@ import { AssetCardComponent } from '../asset-card/asset-card.component';
 })
 export class AssetOverviewComponent implements OnInit {
   assets: Asset[] = [];
+  filteredAssets: Asset[] = [];
   plants: string[] = ['Plant A', 'Plant B', 'Plant C', 'Plant D']; // Example plant names
   selectedPlant: string = 'All Plants';
   dropdownOpen: boolean = false;
@@ -98,6 +99,7 @@ export class AssetOverviewComponent implements OnInit {
   ngOnInit() {
     this.assetService.getAssets().subscribe(assets => {
       this.assets = assets;
+      this.filteredAssets = assets; // Initially show all assets
     });
   }
 
@@ -108,6 +110,12 @@ export class AssetOverviewComponent implements OnInit {
   selectPlant(plant: string) {
     this.selectedPlant = plant;
     this.dropdownOpen = false;
-    // You can filter assets here based on the selected plant
+
+    // Filter assets based on selected plant
+    if (plant === 'All Plants') {
+      this.filteredAssets = this.assets;
+    } else {
+      this.filteredAssets = this.assets.filter(asset => asset.plant === plant);
+    }
   }
 }

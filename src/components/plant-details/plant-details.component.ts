@@ -82,7 +82,7 @@ interface PlantDetails {
       </ng-template>
     </div>
   `,
-  styles: [` 
+  styles: [`
     .plant-details-container {
       padding: 20px;
       background-color: #f5f7fa;
@@ -158,12 +158,12 @@ interface PlantDetails {
     }
     .details-table th,
     .details-table td {
-      border: 1px solid #ddd;
+      border: none;
       padding: 10px;
       text-align: left;
     }
     .details-table th {
-      background-color: #f0f0f0;
+      background-color: transparent;
       font-weight: bold;
     }
     .contact-email {

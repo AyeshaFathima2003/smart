@@ -19,7 +19,7 @@ export class AssetService {
     {
       id: 'WR1118S',
       name: 'Expansion Joint WR1118S',
-      description: 'Uga Lab',
+      description: 'Digi Lab',
       imageUrls: ['https://contram.ee/wp-content/uploads/2020/09/01-02-steel-bellows-expansion-joints-1536x1190.jpg','https://tse2.mm.bing.net/th?id=OIP.A8-OCmdlxN3ioZqc5ctIYAHaHU&pid=Api&P=0&h=180','https://tse3.mm.bing.net/th?id=OIP.hrGV9Gvi70GUgG3AfQenXAHaHa&pid=Api&P=0&h=180'], // ✅ Change to an array
       status: 'ok',
       plant: 'Plant B'
@@ -27,7 +27,7 @@ export class AssetService {
     {
       id: 'P7510FA0-2',
       name: 'Expansion Joint P7510FA0-2',
-      description: 'Uga Lab',
+      description: 'Digi Lab',
       imageUrls:['https://contram.ee/wp-content/uploads/2020/09/01-02-steel-bellows-expansion-joints-1536x1190.jpg','https://tse2.mm.bing.net/th?id=OIP.A8-OCmdlxN3ioZqc5ctIYAHaHU&pid=Api&P=0&h=180','https://tse3.mm.bing.net/th?id=OIP.hrGV9Gvi70GUgG3AfQenXAHaHa&pid=Api&P=0&h=180'], // ✅ Change to an array
       status: 'ok',
       plant: 'Plant C'
@@ -35,7 +35,7 @@ export class AssetService {
     {
       id: 'gauge-1',
       name: 'Pressure Gauge',
-      description: 'Monitoring Device',
+      description: 'Digi Lab',
       imageUrls: ['https://contram.ee/wp-content/uploads/2020/09/01-02-steel-bellows-expansion-joints-1536x1190.jpg','https://tse2.mm.bing.net/th?id=OIP.A8-OCmdlxN3ioZqc5ctIYAHaHU&pid=Api&P=0&h=180','https://tse3.mm.bing.net/th?id=OIP.hrGV9Gvi70GUgG3AfQenXAHaHa&pid=Api&P=0&h=180'], // ✅ Change to an array
       status: 'ok',
       plant: 'Plant A'
@@ -43,7 +43,7 @@ export class AssetService {
     {
       id: 'stand-1',
       name: 'Equipment Stand',
-      description: 'Support Structure',
+      description: 'Digi Lab',
       imageUrls: ['https://contram.ee/wp-content/uploads/2020/09/01-02-steel-bellows-expansion-joints-1536x1190.jpg','https://tse2.mm.bing.net/th?id=OIP.A8-OCmdlxN3ioZqc5ctIYAHaHU&pid=Api&P=0&h=180','https://tse3.mm.bing.net/th?id=OIP.hrGV9Gvi70GUgG3AfQenXAHaHa&pid=Api&P=0&h=180'], // ✅ Change to an array
       status: 'ok',
       plant: 'Plant B'
@@ -51,7 +51,7 @@ export class AssetService {
     {
       id: 'joint-4',
       name: 'Advanced Joint',
-      description: 'High Pressure',
+      description: 'Digi Lab',
       imageUrls:['https://contram.ee/wp-content/uploads/2020/09/01-02-steel-bellows-expansion-joints-1536x1190.jpg','https://tse2.mm.bing.net/th?id=OIP.A8-OCmdlxN3ioZqc5ctIYAHaHU&pid=Api&P=0&h=180','https://tse3.mm.bing.net/th?id=OIP.hrGV9Gvi70GUgG3AfQenXAHaHa&pid=Api&P=0&h=180'], // ✅ Change to an array
       status: 'ok',
       plant: 'Plant C'
