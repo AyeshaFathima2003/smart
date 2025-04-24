@@ -25,7 +25,7 @@ import { Asset } from '../models/asset';
       <!-- Status Below Image -->
       <div class="status-container" *ngIf="asset.status">
         <span class="status-badge" [ngClass]="asset.status">
-          {{ asset.status === 'ok' ? '✔ Ok' : '⚠ Warning' }}
+          {{ asset.status === 'ok' ? 'Ok' : '⚠ Warning' }}
         </span>
       </div>
 
